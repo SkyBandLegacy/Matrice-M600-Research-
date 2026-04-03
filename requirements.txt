@@ -1,0 +1,28 @@
+# DJI M600 Research Automation System - Dependencies
+
+# Web scraping
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+selenium>=4.15.0
+playwright>=1.40.0
+httpx>=0.25.0
+
+# PDF parsing
+PyMuPDF>=1.23.0
+pdfplumber>=0.10.0
+pypdf>=3.17.0
+
+# Data storage
+sqlalchemy>=2.0.0
+
+# Citation / document export
+python-docx>=1.1.0
+bibtexparser>=1.4.0
+
+# Utilities
+rich>=13.7.0
+click>=8.1.0
+tqdm>=4.66.0
+python-dotenv>=1.0.0
+tenacity>=8.2.0
